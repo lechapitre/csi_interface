@@ -1,4 +1,4 @@
-module github.com/ibm/ibm-block-csi-driver
+module github.com/lechapitre/csi_interface
 
 go 1.23.0
 
