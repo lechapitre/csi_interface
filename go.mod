@@ -1,12 +1,12 @@
 module github.com/lechapitre/csi_interface
 
 go 1.23.0
-
 toolchain go1.24.1
 
 require (
 	github.com/container-storage-interface/spec v1.9.0
 	github.com/golang/mock v1.6.0
+	github.com/ibm/ibm-block-csi-driver v1.12.2
 	github.com/kubernetes-csi/csi-lib-utils v0.19.0
 	github.com/sirupsen/logrus v1.9.3
 	golang.org/x/sync v0.12.0
@@ -15,7 +15,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/apimachinery v0.32.2
 	k8s.io/client-go v0.32.2
-	k8s.io/mount-utils v0.32.2
+	k8s.io/mount-utils v0.33.0
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
 
@@ -57,7 +57,6 @@ require (
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
-	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
