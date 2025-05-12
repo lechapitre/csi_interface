@@ -7,9 +7,10 @@ toolchain go1.24.1
 require (
 	github.com/container-storage-interface/spec v1.9.0
 	github.com/golang/mock v1.6.0
+	github.com/ibm/ibm-block-csi-driver v1.12.2
 	github.com/kubernetes-csi/csi-lib-utils v0.19.0
 	github.com/sirupsen/logrus v1.9.3
-	golang.org/x/sync v0.12.0
+	golang.org/x/sync v0.14.0
 	golang.org/x/sys v0.31.0
 	google.golang.org/grpc v1.71.0
 	gopkg.in/yaml.v2 v2.4.0
